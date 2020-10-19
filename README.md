@@ -43,4 +43,5 @@ pip3 install -r requirements.txt
 3. Run spam script  
 `python3 tx_spam_rest.py`  
 
-*This repository created for testing purposes only
+*This repository created for testing purposes only  
+*For generating wallets and sending transcations I used [cosmospy](https://github.com/hukkinj1/cosmospy)
