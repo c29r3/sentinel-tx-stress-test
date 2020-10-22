@@ -54,7 +54,7 @@ def read_keypairs():
         line = line.split(";")
         addr = line[0]
         priv = line[1]
-        if len(addr) != 43 or addr[:4] != "sent" or len(priv) != 64:
+        if len(addr) != 43 or addr[:4] != BECH32_HRP or len(priv) != 64:
             print(f"Incorrect address or private key format {addr}")
             continue
         addrs_lst.append(addr)
